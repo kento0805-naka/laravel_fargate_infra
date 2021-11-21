@@ -12,7 +12,7 @@ env:
 jobs:
   deploy:
     name: Deploy app to AWS Fargate
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
       - name: Configure aws credentials for prod
